@@ -1,0 +1,79 @@
+.inpunt-content.error span {
+    color: rgb(161, 66, 66);   
+    display: block;
+}
+
+.inpunt-content span {
+    display: none;
+    /* visibility: hidden;    */
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.sec-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #c4a5d6;
+}
+
+.formularios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    row-gap: 30px;
+}
+
+.sec-form h2 {
+    font-size: 35px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border: 0;
+    border-bottom: 2px solid #5C527F;
+    background: 0;
+    font-size: 16px;
+}
+
+input:focus{
+    outline: 0;
+}
+
+input::placeholder, .muda-form{
+    font-size: 16px;
+    color: black;
+    background: 0;
+}
+
+input[type="submit"]{
+    outline: 0;
+    border: 0;
+    background: 0;
+    width: 200px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 2px solid #5C527F;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #5C527F;
+    color: white;
+}
+
+/* input [type="password"]{
+    float: left;
+    padding:5px 20px 5px 5px
+}
+
+#icon-olho-aberto{
+    float: right;
+    margin:3px 0px 0px -20px;
+    cursor: pointer;
+} */

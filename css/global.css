@@ -1,0 +1,42 @@
+@import url("./login.css");
+@import url("./modal.css");
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Manrope&family=Montserrat:wght@300&family=Nunito:wght@600&family=Open+Sans:wght@700&family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones{
+    width: 15px;
+    cursor: pointer;;
+}
+
+.img-form, .sec-form{
+    width: 50%;
+    height: 100%;
+}
+
+.img-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #261c2c;
+}
+
+.img-form img {
+    width: 70%;
+}

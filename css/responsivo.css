@@ -1,0 +1,26 @@
+@media (max-width: 700px){
+    body {
+        width: 100vw;
+        height: 100vh;
+        flex-flow: column-reverse nowrap;
+    }
+
+    .img-form, .sec-form{
+        width: 100%;
+        height: 100%;
+    }
+
+    input {
+        width: 250px;
+        font-size: 15px;
+    }
+
+    input::placeholder, .muda-form{
+        font-size: 15px;
+    }
+    
+    input[type="submit"], #btngoogle{
+        width: 180px;
+        font-size: 15px;
+    }
+}

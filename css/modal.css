@@ -1,0 +1,52 @@
+#verificar-modal{
+    display: none;
+}
+
+.fade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(18, 17, 17, 0.584);
+}
+
+.modal{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: #5C527F;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    font-size: 16px;
+}
+
+.fechar-modal{
+    border:none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 550;
+    border-radius: 10px;
+    background-color: #6b628fce;
+    padding: 8px;
+}
+
+.fechar-modal:hover{
+    opacity:calc(0.6) ;
+}
+
+.icones-modal{
+    width: 60px;
+}
