@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Login</title>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/responsivo.css">
+    <script type="module" src="/js/valida.js" defer></script>
+    <script type="module" src="/js/envio.js" defer></script>
+    <script type="module" src="/js/armazenaSession.js"></script>
+</head>
+<body>
+    
+    <article class="img-form">
+        <img src="/img/undraw_forms_re_pkrt.svg" alt="img-form">
+    </article>
+
+    <section class="sec-form">
+        <h2>Login</h2>
+
+        <form action="" class="formularios" name="form-login" id="form-login"> 
+            <div class="inpunt-content span-verifica">
+                <img src="/img/usuario.svg" alt="icon-email" class="icones">
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+                <br>
+                <span></span>
+            </div>
+            
+            <div class="inpunt-content">
+                <img src="/img/email.svg" alt="icon-email" class="icones">
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <br>                
+                <span></span>
+            </div>
+    
+            <div class="inpunt-content">                
+                <img src="/img/cadeado.svg" alt="icon-senha" class="icones">
+                <input type="password" name="senha" id="senha"  placeholder="Senha" minlength="8" maxlength="8">
+                <img src="/img/olhoaberto.svg" alt="olho-aberto" class="icones" id="icon-olho-aberto">
+                <br>               
+                <span></span>
+            </div>
+    
+            <input type="submit" value="Entrar" id="entrar">            
+    
+            <div><a href="" class="muda-form">Não tem conta?</a></div>
+        </form>
+    </section>
+
+    <section id="verificar-modal" class="modais">
+        <div class="fade"></div>
+        <div class="modal">
+            <span><img src="/img/verificar.svg" alt="icon-verifica" class="icones-modal"></span>
+            <p>Login feito com sucesso.</p>
+            <button class="fechar-modal">Fechar</button>
+        </div>
+    </section>  
+</body>
+</html>
